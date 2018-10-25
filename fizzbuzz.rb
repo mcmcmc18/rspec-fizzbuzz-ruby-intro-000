@@ -5,7 +5,7 @@ require_relative '../fizzbuzz.rb'
 def fizzbuzz(int)
   integer = int.to_i
   if integer % 3 == 0 && int % 5 == 0 # if the number int is divisible by 3
-  put "fizzbuzz"
+  put "FizzBuzz"
   if else integer % 3 == 0 # if the number int is divisible by 3
    put "Fizz" # Go fizz
   if else integer % 5 == 0 # if the number int is divisible by 5
